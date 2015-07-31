@@ -36,6 +36,7 @@
 ;; *****************************************************************************************
 
    `(default                          ((t (:foreground "#ABAEB3" :background ,background))))
+   `(hl-line                          ((t (:background "#141614"))))
    `(region                           ((t (:background ,selection                       ))))
    `(cursor                           ((t (:background "#ffffff"                        ))))
    `(fringe                           ((t (:background "#2f2f2f"   :foreground "#ffffff"))))
