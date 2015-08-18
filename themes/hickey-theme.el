@@ -44,7 +44,7 @@
    ;; ----------------- Frame stuff --------------------
    `(default ((t (:background ,hickey-background :foreground ,hickey-foreground))))
    `(cursor  ((t (:background ,hickey-lightest-gray))))
-   `(hl-line ((t (:background ,hickey-light-gray))))
+   `(hl-line ((t (:background ,hickey-dark-gray))))
    `(modeline ((t (:foreground ,hickey-lightest-gray :background ,hickey-mid-gray))))
    `(mode-line-inactive ((t (:box nil :foreground ,hickey-light-gray :background ,hickey-dark-gray))))
    `(mode-line ((t (:box nil :foreground ,hickey-background :background ,hickey-light-blue))))
