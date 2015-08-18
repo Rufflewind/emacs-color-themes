@@ -44,7 +44,7 @@
    ;; ----------------- Frame stuff --------------------
    `(default ((t (:background ,fogus-background :foreground ,fogus-foreground))))
    `(cursor  ((t (:background ,fogus-off-white))))
-   `(hl-line ((t (:background ,fogus-mid-gray))))
+   `(hl-line ((t (:background ,fogus-dark-blue))))
    `(modeline ((t (:background ,fogus-dark-blue :foreground ,fogus-white))))
    `(mode-line-inactive ((t (:box nil :background ,fogus-mid-gray :foreground ,fogus-light-gray-blue))))
    `(mode-line ((t (:box nil :foreground ,fogus-white :background ,fogus-dark-blue))))
@@ -52,7 +52,7 @@
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,fogus-white))))
    ;; Highlight region color
-   `(region ((t (:foreground ,fogus-yellow-white :background ,fogus-darker-blue))))
+   `(region ((t (:background ,fogus-blue))))
 
    ;; ---------------- Code Highlighting ---------------
    ;; Builtin
