@@ -41,7 +41,7 @@
       (*regexp*             "#E9C")
       (*string*             "#615953")
       (*variable*           "#C6C5FE")
-      (*visual-selection*   "#1D1F21"))
+      (*visual-selection*   "#2D2F31"))
 
   (custom-theme-set-faces
    'graham
