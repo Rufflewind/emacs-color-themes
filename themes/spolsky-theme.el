@@ -97,8 +97,8 @@
    `(vertical-border ((t (:foreground, *background*)))) ;; between splits
 
    ;; show-paren
-   `(show-paren-mismatch ((t (:background, *warning* :foreground, *normal* :weight bold))))
-   `(show-paren-match ((t (:background, *keywords* :foreground, *normal* :weight bold))))
+   `(show-paren-mismatch ((t (:background, *warning* :foreground, *current-line* :weight bold))))
+   `(show-paren-match ((t (:background, *method-declaration* :foreground, *current-line*))))
 
    ;; search
    `(isearch ((t (:background, *regexp* :foreground, *visual-selection*))))
