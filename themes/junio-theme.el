@@ -25,7 +25,8 @@
 (let ((junio-background     "#120312")
       (junio-foreground     "#C5C5B8")
       (junio-comment-slate  "#637579")
-      (junio-black          "#000000")
+      (junio-black          "#060106")
+      (junio-region         "#1f081f")
       (junio-constant       "#6F8FCC")
       (junio-mid-gray       "#555555")
       (junio-light-gray     "#BCBCBC")
@@ -52,7 +53,7 @@
    `(mode-line ((t (:box nil :bold t :foreground ,junio-mode :background ,junio-mode-back))))
    `(fringe ((t (:background ,junio-background))))
    ;; Highlight region color
-   `(region ((t (:foreground ,junio-yellow :background ,junio-dark-slate))))
+   `(region ((t (:background ,junio-region))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,junio-foreground))))
 
