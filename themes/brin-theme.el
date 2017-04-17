@@ -58,6 +58,7 @@
    `(region                           ((t (:background ,selection                       ))))
    `(cursor                           ((t (:background ,white                        ))))
    `(fringe                           ((t (:background ,background   :foreground ,white))))
+   `(hl-line                          ((t (:background ,gutters))))
    `(linum                            ((t (:background ,background :foreground ,gutter-fg))))
    `(mode-line                        ((t (:foreground ,white :background ,gutters-active  ))))
    `(mode-line-inactive               ((t (:foreground ,gutter-fg :background ,gutters  ))))
