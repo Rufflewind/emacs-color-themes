@@ -34,8 +34,8 @@
       (fogus-lightest-blue   "#effbff")
       (fogus-lighter-blue    "#748aa6")
       (fogus-light-blue      "#6ee2ff")
-      (fogus-blue            "#324357")
-      (fogus-dark-blue       "#183c66")
+      (fogus-blue            "#33637f")
+      (fogus-dark-blue       "#112341")
       (fogus-darker-blue     "#1b232c")
       (fogus-green           "#95cc5e"))
   (custom-theme-set-faces
